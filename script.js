@@ -57,7 +57,7 @@ console.log(determineWinner('paper', 'scissors'));
 console.log(determineWinner('rock', 'rock'));
 */
 const playGame = () => {
-  const userChoice = getUserChoice('bomb');
+  const userChoice = getUserChoice('paper');
   const computerChoice = getComputerChoice();
   console.log('You threw: ' + userChoice);
   // console.log(`You threw ${userChoice}`);
@@ -67,11 +67,3 @@ const playGame = () => {
 };
 
 playGame();
-
-
-
-
-
-
-
-
